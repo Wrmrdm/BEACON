@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[BRAND] — Bloomwell B.V. · Germany expansion</title>
+  <meta name="description" content="Logged-in view: a Dutch commerce SME midway through its VAT setup for Germany." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body class="db">
+  <a class="skip-link" href="#db-main">Skip to content</a>
+
+  <!-- ============ Sidebar ============ -->
+  <aside class="db-rail" aria-label="Sections">
+    <a class="db-rail__brand wordmark" href="index.html" aria-label="[BRAND] home">[BRAND]</a>
+
+    <nav class="db-nav" aria-label="Primary">
+      <button class="db-nav__item is-active" data-panel="overview" type="button">
+        <span class="db-nav__dot" aria-hidden="true"></span> Overview
+      </button>
+      <button class="db-nav__item" data-panel="registrations" type="button">
+        <span class="db-nav__dot" aria-hidden="true"></span> Registrations
+      </button>
+      <button class="db-nav__item" data-panel="filings" type="button">
+        <span class="db-nav__dot" aria-hidden="true"></span> Filings
+      </button>
+      <button class="db-nav__item" data-panel="templates" type="button">
+        <span class="db-nav__dot" aria-hidden="true"></span> Templates
+      </button>
+      <button class="db-nav__item" data-panel="monitoring" type="button">
+        <span class="db-nav__dot" aria-hidden="true"></span> Monitoring
+      </button>
+    </nav>
+
+    <div class="db-rail__foot">
+      <p class="db-rail__support label">Need a person?</p>
+      <button class="db-chip-btn" type="button">Ask a tax adviser</button>
+    </div>
+  </aside>
+
+  <!-- ============ Top bar ============ -->
+  <header class="db-top">
+    <div class="db-top__left">
+      <button class="db-company" type="button" aria-haspopup="listbox">
+        <span class="db-company__mark" aria-hidden="true">B</span>
+        <span class="db-company__meta">
+          <span class="db-company__name">Bloomwell B.V.</span>
+          <span class="db-company__sub">Rotterdam · Natural skincare</span>
+        </span>
+        <span class="db-company__chev" aria-hidden="true">⌄</span>
+      </button>
+    </div>
+    <div class="db-top__right">
+      <button class="db-icon-btn" type="button" aria-label="Notifications">
+        <span class="db-bell" aria-hidden="true">◔</span>
+        <span class="db-badge" aria-hidden="true">2</span>
+      </button>
+      <button class="db-avatar" type="button" aria-label="Account: Iris de Vries">ID</button>
+    </div>
+  </header>
+
+  <!-- ============ Main ============ -->
+  <main class="db-main" id="db-main">
+
+    <!-- ---------- OVERVIEW ---------- -->
+    <section class="db-panel is-active" data-panel-body="overview" aria-label="Overview">
+      <div class="db-head">
+        <div>
+          <p class="label db-head__crumb">Expansion · Germany</p>
+          <h1 class="db-head__title">Your German tax setup is underway</h1>
+          <p class="db-head__sub">
+            You store stock in a German fulfilment centre, so Germany needs its
+            own VAT registration — OSS alone won't cover those sales. Here's
+            where it stands.
+          </p>
+        </div>
+        <div class="db-progress" role="img" aria-label="4 of 10 steps complete, 45 percent">
+          <div class="db-progress__ring" style="--pct: 45">
+            <span class="db-progress__num">45<small>%</small></span>
+          </div>
+          <p class="db-progress__cap">Step 5 of 10 · 4 done</p>
+        </div>
+      </div>
+
+      <!-- market strip -->
+      <div class="db-markets">
+        <article class="db-market db-market--live">
+          <header><span class="db-market__code">NL</span><span class="db-pill db-pill--live">Live</span></header>
+          <h3>Netherlands</h3>
+          <p>BTW + OSS active. Quarterly returns filing on schedule.</p>
+        </article>
+        <article class="db-market db-market--active">
+          <header><span class="db-market__code">DE</span><span class="db-pill db-pill--progress">In&nbsp;progress</span></header>
+          <h3>Germany</h3>
+          <p>Local VAT registration submitted to Finanzamt Kleve. Awaiting Steuernummer.</p>
+        </article>
+        <article class="db-market">
+          <header><span class="db-market__code">BE</span><span class="db-pill db-pill--planned">Planned</span></header>
+          <h3>Belgium</h3>
+          <p>Covered by OSS for now. Local registration only if you store stock there.</p>
+        </article>
+      </div>
+
+      <div class="db-grid">
+        <!-- left: timeline preview -->
+        <div class="db-col">
+          <div class="db-card">
+            <div class="db-card__head">
+              <h2 class="db-card__title">Germany — registration timeline</h2>
+              <button class="db-link" data-goto="registrations" type="button">All steps →</button>
+            </div>
+            <ol class="db-timeline" data-timeline-preview></ol>
+          </div>
+        </div>
+
+        <!-- right: needs you + deadlines -->
+        <div class="db-col">
+          <div class="db-card db-card--accent">
+            <div class="db-card__head">
+              <h2 class="db-card__title">Needs you</h2>
+              <span class="db-count">2</span>
+            </div>
+            <ul class="db-tasks" data-tasks></ul>
+          </div>
+
+          <div class="db-card">
+            <div class="db-card__head">
+              <h2 class="db-card__title">Upcoming deadlines</h2>
+            </div>
+            <ul class="db-deadlines" data-deadlines></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- REGISTRATIONS ---------- -->
+    <section class="db-panel" data-panel-body="registrations" aria-label="Registrations" hidden>
+      <div class="db-head">
+        <div>
+          <p class="label db-head__crumb">Germany</p>
+          <h1 class="db-head__title">Registration steps</h1>
+          <p class="db-head__sub">
+            The full sequence to get you trading and compliant in Germany.
+            Expand any step for detail.
+          </p>
+        </div>
+      </div>
+      <div class="db-steps" data-steps></div>
+    </section>
+
+    <!-- ---------- FILINGS ---------- -->
+    <section class="db-panel" data-panel-body="filings" aria-label="Filings" hidden>
+      <div class="db-head">
+        <div>
+          <p class="label db-head__crumb">All markets</p>
+          <h1 class="db-head__title">Filings</h1>
+          <p class="db-head__sub">Every return we prepare and submit on your behalf.</p>
+        </div>
+      </div>
+      <div class="db-card">
+        <table class="db-table">
+          <thead>
+            <tr><th>Return</th><th>Market</th><th>Period</th><th>Due</th><th>Status</th></tr>
+          </thead>
+          <tbody data-filings></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ---------- TEMPLATES ---------- -->
+    <section class="db-panel" data-panel-body="templates" aria-label="Templates" hidden>
+      <div class="db-head">
+        <div>
+          <p class="label db-head__crumb">Germany</p>
+          <h1 class="db-head__title">Compliant templates</h1>
+          <p class="db-head__sub">
+            Drafted for German law and ready to use — not a starting point.
+          </p>
+        </div>
+      </div>
+      <div class="db-docs" data-templates></div>
+    </section>
+
+    <!-- ---------- MONITORING ---------- -->
+    <section class="db-panel" data-panel-body="monitoring" aria-label="Monitoring" hidden>
+      <div class="db-head">
+        <div>
+          <p class="label db-head__crumb">Always on</p>
+          <h1 class="db-head__title">Monitoring</h1>
+          <p class="db-head__sub">
+            We watch rates, thresholds, and rule changes across your markets.
+            You only hear from us when it matters.
+          </p>
+        </div>
+      </div>
+      <ul class="db-feed" data-feed></ul>
+    </section>
+
+  </main>
+
+  <script src="dashboard.js" defer></script>
+</body>
+</html>

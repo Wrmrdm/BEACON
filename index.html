@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[BRAND] — Cross-border operations, handled</title>
-  <meta name="description" content="Official EU sources tell you which obligations exist. [BRAND] assembles the specific, sequenced workflow for your company and the country you're entering — and keeps it current." />
+  <title>[BRAND] — Cross-border VAT for commerce, handled</title>
+  <meta name="description" content="A Dutch shop selling into Germany can owe a German VAT registration, monthly ELSTER filings, and a packaging-law sign-up. [BRAND] maps what you owe, registers you, files it, and monitors it. NL-centered; built for expansion to Belgium and Germany." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,9 +21,10 @@
       <a class="wordmark" href="#top" aria-label="[BRAND] home">[BRAND]</a>
       <nav class="nav__links" aria-label="Primary">
         <a href="#how">How it works</a>
-        <a href="#difference">The difference</a>
-        <a href="#compounds">Expansion</a>
-        <a class="nav__cta" href="#start">Start setup</a>
+        <a href="#map">Map obligations</a>
+        <a href="#markets">Markets</a>
+        <a class="nav__ghost" href="dashboard.html">Log in</a>
+        <a class="nav__cta" href="#start">Start with NL</a>
       </nav>
     </div>
   </header>
@@ -34,22 +35,25 @@
     <!-- 2 — Hero -->
     <section class="hero section" aria-labelledby="hero-title">
       <div class="wrap">
-        <p class="label" data-reveal>Cross-border operations, handled</p>
+        <p class="label" data-reveal>Cross-border VAT for commerce, handled</p>
         <h1 class="hero__title" id="hero-title" data-reveal>
-          The rules are public.<br />
-          The <em>sequence</em> isn't.
+          Selling across the border is one click.<br />
+          The <em>tax</em> that follows is not.
         </h1>
         <p class="hero__lead lead" data-reveal>
-          Official EU sources tell you which obligations exist. They don't
-          assemble the specific, ordered workflow for your company, your
-          product, and the country you're entering. [BRAND] closes that gap
-          and keeps it closed — while you stay the legal counterparty to your
-          customer.
+          The moment a Dutch shop ships into Germany at volume, it can owe a
+          German VAT registration, monthly filings through ELSTER, and a
+          packaging-law sign-up — none of which the checkout warned about.
+          [BRAND] maps exactly what you owe, registers you, files it, and
+          watches it. You stay the seller of record; we run the tax.
         </p>
         <div class="hero__actions" data-reveal>
-          <a class="btn" href="#start">Start with a 20-minute setup</a>
-          <a class="link-arrow" href="#how">See how it works <span aria-hidden="true">↓</span></a>
+          <a class="btn" href="#map">Map my obligations</a>
+          <a class="link-arrow" href="dashboard.html">See a live account <span aria-hidden="true">→</span></a>
         </div>
+        <p class="hero__foot label" data-reveal>
+          Live for the Netherlands · Expansion to Belgium &amp; Germany
+        </p>
       </div>
     </section>
 
@@ -62,59 +66,158 @@
         </div>
         <div class="col-main">
           <h2 class="h2" id="problem-title" data-reveal>
-            What expanding across a border actually costs you today
+            What one cross-border sale actually sets off
           </h2>
           <p class="lead measure" data-reveal>
-            One sale into a new country pulls in a bundle of advisors. You
-            assemble it yourself, brief each one separately, and hold the whole
-            thing together by hand.
+            There is no off-the-shelf answer here. The rules are real,
+            country-specific, and badly connected. A single decision — ship from
+            a German warehouse, cross a sales threshold — can trigger a chain of
+            obligations in a system you've never touched.
           </p>
 
           <ul class="ledger" data-reveal>
             <li class="ledger__row">
-              <span class="ledger__role">A domestic tax advisor</span>
-              <span class="ledger__note">who knows your books, but not the destination.</span>
+              <span class="ledger__role">A €10,000 line</span>
+              <span class="ledger__note">Cross the EU-wide distance-selling threshold and you charge each country's VAT rate, not your own.</span>
             </li>
             <li class="ledger__row">
-              <span class="ledger__role">A foreign tax advisor</span>
-              <span class="ledger__note">you have to find, vet, and brief from scratch.</span>
+              <span class="ledger__role">Stock abroad</span>
+              <span class="ledger__note">Hold inventory in a German fulfilment centre and OSS no longer covers you — you need a local VAT number.</span>
             </li>
             <li class="ledger__row">
-              <span class="ledger__role">A commercial lawyer</span>
-              <span class="ledger__note">for contracts, terms, and local consumer rules.</span>
+              <span class="ledger__role">A second tax office</span>
+              <span class="ledger__note">German registration runs through one Finanzamt, in German, on its own forms and timeline.</span>
             </li>
             <li class="ledger__row">
-              <span class="ledger__role">An insurance broker</span>
-              <span class="ledger__note">for the exposure you've just taken on.</span>
+              <span class="ledger__role">A new filing rhythm</span>
+              <span class="ledger__note">Monthly advance returns via ELSTER, an annual return, and an EC sales list — each with its own deadline and penalty.</span>
             </li>
             <li class="ledger__row">
-              <span class="ledger__role">And the founder's time</span>
-              <span class="ledger__note">to coordinate all of it — the line no one invoices.</span>
+              <span class="ledger__role">A law that isn't tax</span>
+              <span class="ledger__note">Before you sell to German consumers you must register packaging under the Verpackungsgesetz. Miss it and listings get pulled.</span>
             </li>
           </ul>
 
           <p class="measure note" data-reveal>
-            Five relationships, five hourly rates, and still no single view of
-            whether you are actually compliant.
+            Today you solve this with a domestic accountant, a foreign tax
+            advisor, a lawyer, and a lot of founder time. Five invoices, and
+            still no single view of whether you're actually compliant.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- 4 — How it works -->
+    <!-- 4 — Interactive obligations configurator -->
+    <section class="section section--rule configurator" id="map" aria-labelledby="map-title">
+      <div class="wrap">
+        <div class="grid-2">
+          <div class="col-aside">
+            <p class="index">02</p>
+            <p class="label">Map your obligations</p>
+          </div>
+          <div class="col-main">
+            <h2 class="h2" id="map-title" data-reveal>
+              Tell us how you sell. See what it triggers.
+            </h2>
+            <p class="lead measure" data-reveal>
+              A directory tells you rules exist. This shows the specific,
+              sequenced obligations for your exact setup — the synthesis no
+              official portal will do for you. Adjust the inputs; the plan
+              updates live.
+            </p>
+          </div>
+        </div>
+
+        <div class="cfg" data-reveal data-configurator>
+          <!-- inputs -->
+          <form class="cfg__inputs" aria-label="Your selling setup">
+            <fieldset class="cfg__group">
+              <legend class="cfg__legend">Home market</legend>
+              <span class="cfg__home">Netherlands · BTW registered</span>
+            </fieldset>
+
+            <fieldset class="cfg__group">
+              <legend class="cfg__legend">Selling into</legend>
+              <div class="cfg__toggles">
+                <label class="toggle">
+                  <input type="checkbox" name="market" value="BE" data-cfg checked />
+                  <span class="toggle__box" aria-hidden="true"></span>
+                  <span class="toggle__text">Belgium</span>
+                </label>
+                <label class="toggle">
+                  <input type="checkbox" name="market" value="DE" data-cfg checked />
+                  <span class="toggle__box" aria-hidden="true"></span>
+                  <span class="toggle__text">Germany</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="cfg__group">
+              <legend class="cfg__legend">Annual cross-border B2C sales</legend>
+              <div class="cfg__toggles">
+                <label class="toggle toggle--radio">
+                  <input type="radio" name="threshold" value="under" data-cfg />
+                  <span class="toggle__dot" aria-hidden="true"></span>
+                  <span class="toggle__text">Under €10,000</span>
+                </label>
+                <label class="toggle toggle--radio">
+                  <input type="radio" name="threshold" value="over" data-cfg checked />
+                  <span class="toggle__dot" aria-hidden="true"></span>
+                  <span class="toggle__text">Over €10,000</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="cfg__group">
+              <legend class="cfg__legend">Where you hold stock</legend>
+              <div class="cfg__toggles">
+                <label class="toggle">
+                  <input type="checkbox" name="stock" value="DE" data-cfg checked />
+                  <span class="toggle__box" aria-hidden="true"></span>
+                  <span class="toggle__text">A warehouse / FBA in Germany</span>
+                </label>
+                <label class="toggle">
+                  <input type="checkbox" name="stock" value="BE" data-cfg />
+                  <span class="toggle__box" aria-hidden="true"></span>
+                  <span class="toggle__text">A warehouse / FBA in Belgium</span>
+                </label>
+              </div>
+            </fieldset>
+          </form>
+
+          <!-- output -->
+          <div class="cfg__output" aria-live="polite">
+            <div class="cfg__output-head">
+              <p class="label">Your obligation map</p>
+              <p class="cfg__count" data-cfg-count>0 items</p>
+            </div>
+            <ol class="cfg__list" data-cfg-list>
+              <!-- populated by JS -->
+            </ol>
+            <p class="cfg__disclaimer">
+              Illustrative, based on current EU and national rules. [BRAND]
+              confirms the specifics for your situation during onboarding.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 — How it works -->
     <section class="section section--rule" id="how" aria-labelledby="how-title">
       <div class="wrap grid-2">
         <div class="col-aside">
-          <p class="index">02</p>
+          <p class="index">03</p>
           <p class="label">How it works</p>
         </div>
         <div class="col-main">
           <h2 class="h2" id="how-title" data-reveal>
-            One partner, working behind you
+            From a 20-minute setup to filings that just run
           </h2>
           <p class="lead measure" data-reveal>
-            [BRAND] runs in the background. You stay the counterparty to your
-            customer; we carry the compliance weight.
+            [BRAND] runs the tax in the background. You stay the legal seller to
+            your customer; we carry the registrations, the filings, and the
+            watching.
           </p>
 
           <ol class="steps">
@@ -123,59 +226,64 @@
               <div class="step__body">
                 <h3 class="step__title">Twenty minutes of onboarding</h3>
                 <p>
-                  You answer a structured set of questions about your company,
-                  your product, and the market you're entering. That's the whole
-                  ask of you.
+                  Where you sell, what you sell, where stock sits, and your
+                  volumes. We read your existing NL registration and pick up from
+                  there.
                 </p>
               </div>
             </li>
             <li class="step" data-reveal>
               <span class="step__num">02</span>
               <div class="step__body">
-                <h3 class="step__title">A country-specific compliance picture</h3>
+                <h3 class="step__title">Your exact tax position</h3>
                 <p>
-                  Built for your exact situation — not a directory of every rule,
-                  but the obligations that apply to you, in the order they apply.
+                  OSS or local registration, per country, with the reason. Not a
+                  list of every German rule — the specific obligations that apply
+                  to you, in the order they apply.
                 </p>
               </div>
             </li>
             <li class="step" data-reveal>
               <span class="step__num">03</span>
               <div class="step__body">
-                <h3 class="step__title">A done-for-you library of templates</h3>
+                <h3 class="step__title">Registrations, done for you</h3>
                 <p>
-                  Contracts, terms, and notices drafted for the destination and
-                  compliant on arrival. Ready to use, not a starting point.
+                  We file the German VAT registration with the right Finanzamt,
+                  request your USt-IdNr, set up ELSTER, and complete the
+                  Verpackungsgesetz sign-up. You sign once.
                 </p>
               </div>
             </li>
             <li class="step" data-reveal>
               <span class="step__num">04</span>
               <div class="step__body">
-                <h3 class="step__title">Recurring services that just run</h3>
+                <h3 class="step__title">Compliant templates, supplied</h3>
                 <p>
-                  Filings submitted, GDPR upkeep maintained, deadlines tracked.
-                  You hear from us when something needs you — not before.
+                  German-law invoices, the right VAT wording, withdrawal notices
+                  — drafted for the destination and ready to use, not a starting
+                  point.
                 </p>
               </div>
             </li>
             <li class="step" data-reveal>
               <span class="step__num">05</span>
               <div class="step__body">
-                <h3 class="step__title">Human routing, with defined scope</h3>
+                <h3 class="step__title">Filings that run themselves</h3>
                 <p>
-                  When a question needs a person, we bring the right one in at a
-                  set scope and a set price. No open meter, no chasing referrals.
+                  OSS returns, German advance returns, the annual return, EC
+                  sales lists — prepared, checked, and submitted on time. You
+                  hear from us only when something needs you.
                 </p>
               </div>
             </li>
             <li class="step" data-reveal>
               <span class="step__num">06</span>
               <div class="step__body">
-                <h3 class="step__title">Quiet, continuous monitoring</h3>
+                <h3 class="step__title">Experts and monitoring, on tap</h3>
                 <p>
-                  Rules change. We watch the official sources so your posture
-                  stays current — without you checking, and without surprises.
+                  A real tax adviser for the hard question, at a fixed scope and
+                  price. And quiet monitoring of rates, thresholds, and rule
+                  changes so your position stays current.
                 </p>
               </div>
             </li>
@@ -184,21 +292,21 @@
       </div>
     </section>
 
-    <!-- 5 — Directory vs. workflow -->
+    <!-- 6 — Directory vs. workflow -->
     <section class="section section--rule" id="difference" aria-labelledby="difference-title">
       <div class="wrap">
         <div class="grid-2">
           <div class="col-aside">
-            <p class="index">03</p>
+            <p class="index">04</p>
             <p class="label">The difference</p>
           </div>
           <div class="col-main">
             <h2 class="h2" id="difference-title" data-reveal>
-              Knowing a rule exists is not the same as getting the sequence
+              Knowing a rule exists is not the same as getting it done
             </h2>
             <p class="lead measure" data-reveal>
-              The official portals are correct and current. They are also
-              directories. Here is the same obligation, two ways.
+              Your Europe and the national portals are correct and current.
+              They're also directories. Here is the same obligation, two ways.
             </p>
           </div>
         </div>
@@ -210,54 +318,95 @@
           </div>
 
           <div class="compare__row">
-            <p class="compare__a">VAT registration may be required above a threshold.</p>
-            <p class="compare__b">Register for VAT in the destination before your first sale. Here is the threshold, the form, and the date it is due.</p>
+            <p class="compare__a">"You may need to register for VAT in another member state."</p>
+            <p class="compare__b">You hold stock in Germany, so OSS doesn't cover it. Register with Finanzamt Kleve. Here is the form, filed, and the date your number is expected.</p>
           </div>
           <div class="compare__row">
-            <p class="compare__a">You may have data-protection obligations.</p>
-            <p class="compare__b">Appoint a representative, publish this notice, record your processing here — completed as part of setup.</p>
+            <p class="compare__a">"Returns are filed electronically."</p>
+            <p class="compare__b">Your German advance return is monthly via ELSTER for the first two years. The next one is due on the 10th. We prepare and submit it.</p>
           </div>
           <div class="compare__row">
-            <p class="compare__a">Some products require conformity documentation.</p>
-            <p class="compare__b">Your product needs this declaration. It is drafted, filed, and stored where you can find it.</p>
+            <p class="compare__a">"Packaging obligations may apply."</p>
+            <p class="compare__b">Selling to German consumers requires a LUCID packaging registration first. It's done, with your registration number on file.</p>
           </div>
           <div class="compare__row">
-            <p class="compare__a">Periodic filing deadlines apply.</p>
-            <p class="compare__b">Your next filing is due on a specific date. We will prepare and submit it.</p>
+            <p class="compare__a">"Distance sales may be reported via the One-Stop-Shop."</p>
+            <p class="compare__b">Your Belgian sales go through OSS from your NL registration — one quarterly return, no Belgian filing. Already set up.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 6 — Expansion compounds -->
+    <!-- 7 — Markets / coverage -->
+    <section class="section section--rule" id="markets" aria-labelledby="markets-title">
+      <div class="wrap grid-2">
+        <div class="col-aside">
+          <p class="index">05</p>
+          <p class="label">Markets</p>
+        </div>
+        <div class="col-main">
+          <h2 class="h2" id="markets-title" data-reveal>
+            Built around the Netherlands first
+          </h2>
+          <p class="lead measure" data-reveal>
+            We start where the rules are deepest and the routes are busiest: a
+            Dutch base, expanding into its two nearest markets. Narrow on
+            purpose — so every step is handled, not approximated.
+          </p>
+
+          <div class="markets" data-reveal>
+            <div class="market market--live">
+              <p class="market__flag">NL</p>
+              <p class="market__name">Netherlands</p>
+              <p class="market__status">Home base · Live</p>
+              <p class="market__note">BTW returns, OSS registration and filing, the base for everything else.</p>
+            </div>
+            <div class="market">
+              <p class="market__flag">BE</p>
+              <p class="market__name">Belgium</p>
+              <p class="market__status">Expansion · Supported</p>
+              <p class="market__note">OSS for distance sales; local BTW/TVA and Intervat filings when stock lands.</p>
+            </div>
+            <div class="market">
+              <p class="market__flag">DE</p>
+              <p class="market__name">Germany</p>
+              <p class="market__status">Expansion · Supported</p>
+              <p class="market__note">Finanzamt registration, ELSTER filings, USt-IdNr, and Verpackungsgesetz.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 — Expansion compounds -->
     <section class="section section--rule" id="compounds" aria-labelledby="compounds-title">
       <div class="wrap grid-2">
         <div class="col-aside">
-          <p class="index">04</p>
-          <p class="label">Expansion compounds</p>
+          <p class="index">06</p>
+          <p class="label">It compounds</p>
         </div>
         <div class="col-main">
           <h2 class="h2" id="compounds-title" data-reveal>
-            Country two is materially easier than country one
+            Germany is hard once. Belgium is easier because of it
           </h2>
           <p class="lead measure" data-reveal>
-            The first market teaches the platform your company — your structure,
-            your product, your templates, your processing. The second reuses all
-            of it.
+            The first registration teaches the platform your company — your
+            structure, your products, your stock map, your filing history. The
+            next market reuses all of it.
           </p>
           <p class="measure" data-reveal>
-            The compliance picture comes faster. Most templates are already
-            there. The monitoring is already running. The marginal cost of each
-            new market falls, and expansion stops being a project you brace for.
+            The tax position comes back faster. The templates are mostly there.
+            The monitoring already runs. The marginal cost of each new country
+            falls, and expansion stops being a project you brace for.
           </p>
 
           <div class="compounds__pair" data-reveal>
             <div class="compounds__cell">
-              <p class="compounds__k">Country one</p>
-              <p class="compounds__v">Set up from scratch</p>
+              <p class="compounds__k">First country</p>
+              <p class="compounds__v">Registered from scratch</p>
             </div>
             <div class="compounds__cell compounds__cell--accent">
-              <p class="compounds__k">Country two</p>
+              <p class="compounds__k">Next country</p>
               <p class="compounds__v">Mostly already done</p>
             </div>
           </div>
@@ -265,19 +414,21 @@
       </div>
     </section>
 
-    <!-- 7 — Closing CTA -->
+    <!-- 9 — Closing CTA -->
     <section class="section closing" id="start" aria-labelledby="closing-title">
       <div class="wrap closing__inner">
         <p class="label" data-reveal>Start</p>
         <h2 class="closing__title" id="closing-title" data-reveal>
-          See the workflow for your next market
+          See your tax position before you commit to a market
         </h2>
         <p class="lead closing__lead" data-reveal>
           Twenty minutes in, you have a specific, sequenced compliance picture
-          for your exact situation — not a list of rules to go and decode.
+          for your next country — registrations named, filings dated, nothing
+          left to decode.
         </p>
-        <div data-reveal>
-          <a class="btn" href="#start">Start your setup</a>
+        <div class="closing__actions" data-reveal>
+          <a class="btn" href="#map">Map my obligations</a>
+          <a class="link-arrow" href="dashboard.html">Open a live account <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
@@ -289,20 +440,21 @@
       <div class="footer__brand">
         <span class="wordmark">[BRAND]</span>
         <p class="footer__note">
-          [BRAND] is an operations partner, not a merchant of record. You remain
-          the legal counterparty to your customers.
+          [BRAND] handles cross-border VAT and tax compliance for commerce
+          businesses. We are an operations partner, not a merchant of record —
+          you remain the legal seller to your customers.
         </p>
       </div>
       <nav class="footer__links" aria-label="Footer">
         <a href="#how">How it works</a>
-        <a href="#difference">The difference</a>
-        <a href="#compounds">Expansion</a>
-        <a href="#start">Start setup</a>
+        <a href="#map">Map obligations</a>
+        <a href="#markets">Markets</a>
+        <a href="dashboard.html">Log in</a>
       </nav>
     </div>
     <div class="wrap footer__base">
       <p>&copy; 2026 [BRAND]</p>
-      <p>For European SMEs expanding across borders.</p>
+      <p>For European commerce businesses expanding across borders.</p>
     </div>
   </footer>
 
