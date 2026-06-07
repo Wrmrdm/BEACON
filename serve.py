@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Serve the [BRAND] landing page locally.
+"""Serve the BEACON landing page locally.
 
 Usage:
     python3 serve.py            # serves on http://localhost:8000
@@ -35,7 +35,7 @@ def main():
     socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer(("127.0.0.1", PORT), Handler) as httpd:
         url = "http://localhost:%d/" % PORT
-        print("\n  [BRAND] is live at  %s" % url)
+        print("\n  BEACON is live at  %s" % url)
         print("  Serving: %s" % DIRECTORY)
         print("  Press Ctrl+C to stop.\n")
         try:

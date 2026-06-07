@@ -1,4 +1,4 @@
-/* [BRAND] — interactions:
+/* BEACON — interactions:
    - sticky nav state
    - subtle scroll reveals
    - live obligations configurator

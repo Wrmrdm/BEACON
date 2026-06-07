@@ -1,5 +1,5 @@
 /* =========================================================
-   [BRAND] — editorial landing page
+   BEACON — editorial landing page
    Type: Fraunces (display serif) + Inter (grotesque body)
    ========================================================= */
 
@@ -214,6 +214,21 @@ a:focus-visible,
   text-decoration: none;
   color: var(--ink);
 }
+
+/* ---------- brand lockup (mark + wordmark) ---------- */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  line-height: 1;
+}
+.brand__mark {
+  flex: 0 0 auto;
+  color: var(--ink);            /* paths use currentColor */
+  transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.brand__dot { fill: var(--accent); }
+.brand:hover .brand__mark { transform: translateY(-1px); }
 .nav__links {
   display: flex;
   align-items: center;
@@ -370,7 +385,7 @@ a:focus-visible,
     color: var(--ink-faint); margin-bottom: 0.4rem; font-family: var(--sans);
   }
   .compare__b::before {
-    content: "[BRAND]";
+    content: "BEACON";
     display: block;
     font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase;
     color: var(--accent); margin-bottom: 0.4rem; font-family: var(--sans);
@@ -438,7 +453,7 @@ a:focus-visible,
   gap: 2.5rem;
   padding-bottom: 3rem;
 }
-.footer__brand .wordmark { display: inline-block; margin-bottom: 1rem; }
+.footer__brand .wordmark { display: inline-flex; margin-bottom: 1rem; }
 .footer__note {
   max-width: 42ch;
   color: var(--ink-soft);

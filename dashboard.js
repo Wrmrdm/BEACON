@@ -1,4 +1,4 @@
-/* [BRAND] dashboard — demo data + interactions.
+/* BEACON dashboard — demo data + interactions.
    Static, self-contained; no backend. */
 (function () {
   "use strict";
@@ -25,7 +25,7 @@
     {
       n: "04", status: "done", title: "Power of attorney signed",
       meta: "Finanzamt Kleve",
-      detail: "Authorises [BRAND] to file and correspond with Finanzamt Kleve, the office that centrally handles Netherlands-resident businesses."
+      detail: "Authorises BEACON to file and correspond with Finanzamt Kleve, the office that centrally handles Netherlands-resident businesses."
     },
     {
       n: "05", status: "active", title: "German VAT registration submitted",
